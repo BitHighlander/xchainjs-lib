@@ -1,4 +1,4 @@
-# `@xchainjs/xchain-ethereum`
+# `@bithighlander/xchain-ethereum`
 
 ## Modules
 
@@ -7,10 +7,10 @@
 ## Installation
 
 ```
-yarn add @xchainjs/xchain-ethereum
+yarn add @bithighlander/xchain-ethereum
 ```
 
-`ethers` is a peer dependencies, but not part of `@xchainjs/xchain-ethereum`. It has to be installed into your project.
+`ethers` is a peer dependencies, but not part of `@bithighlander/xchain-ethereum`. It has to be installed into your project.
 
 ```
 yarn add ethers

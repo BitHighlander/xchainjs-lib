@@ -61,7 +61,7 @@
 
 ### Breaking change
 
-- Update @xchainjs/xchain-crypto package to 0.2.0, deprecating old keystores
+- Update @bithighlander/xchain-crypto package to 0.2.0, deprecating old keystores
 
 # v.0.4.4 (2020-12-11)
 

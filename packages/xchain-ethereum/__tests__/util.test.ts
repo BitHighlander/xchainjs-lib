@@ -1,5 +1,5 @@
 import { getTokenAddress } from '../src/utils'
-import { assetFromString } from '@xchainjs/xchain-util'
+import { assetFromString } from '@bithighlander/xchain-util'
 
 describe('ethereum/util', () => {
   describe('getTokenAddress', () => {

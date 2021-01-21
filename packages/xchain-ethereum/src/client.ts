@@ -28,7 +28,7 @@ import {
   Balances,
   Txs,
   Network,
-} from '@xchainjs/xchain-client'
+} from '@bithighlander/xchain-client'
 import {
   AssetETH,
   baseAmount,
@@ -39,8 +39,8 @@ import {
   assetToBase,
   assetToString,
   ETHChain,
-} from '@xchainjs/xchain-util'
-import * as Crypto from '@xchainjs/xchain-crypto'
+} from '@bithighlander/xchain-util'
+import * as Crypto from '@bithighlander/xchain-crypto'
 import * as ethplorerAPI from './ethplorer-api'
 import {
   ethNetworkToXchains,

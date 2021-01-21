@@ -1,4 +1,4 @@
-import { FeeOptionKey, Fees } from '@xchainjs/xchain-client'
+import { FeeOptionKey, Fees } from '@bithighlander/xchain-client'
 
 export type FeeRate = number
 export type FeeRates = Record<FeeOptionKey, FeeRate>

@@ -3,7 +3,6 @@ import { pbkdf2Async } from './utils'
 
 import * as bip39 from 'bip39'
 import { blake256 } from 'foundry-primitives'
-import { v4 as uuidv4 } from 'uuid'
 
 // Constants
 const cipher = 'aes-128-ctr'
@@ -90,7 +89,7 @@ export const encryptToKeyStore = async (phrase: string, password: string): Promi
     throw new Error('Invalid BIP39 phrase')
   }
 
-  const ID = uuidv4()
+  const ID = "wallet:"+new Date().getTime()
   const salt = crypto.randomBytes(32)
   const iv = crypto.randomBytes(16)
   const kdfParams = {

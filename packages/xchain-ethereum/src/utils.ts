@@ -1,5 +1,5 @@
-import { Fees, Network as XChainNetwork, Tx } from '@xchainjs/xchain-client'
-import { baseAmount, AssetETH, assetFromString, assetAmount, assetToBase, ETHChain, Asset } from '@xchainjs/xchain-util'
+import { Fees, Network as XChainNetwork, Tx } from '@bithighlander/xchain-client'
+import { baseAmount, AssetETH, assetFromString, assetAmount, assetToBase, ETHChain, Asset } from '@bithighlander/xchain-util'
 import { Network as EthNetwork, TransactionOperation, TransactionInfo, Address } from './types'
 import { ethers } from 'ethers'
 

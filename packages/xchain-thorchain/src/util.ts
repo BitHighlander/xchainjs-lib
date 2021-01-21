@@ -1,7 +1,7 @@
-import { Asset, assetToString, baseAmount, assetFromString, THORChain } from '@xchainjs/xchain-util'
+import { Asset, assetToString, baseAmount, assetFromString, THORChain } from '@bithighlander/xchain-util'
 import { AssetRune } from './types'
-import { TxResponse, TxEvent, TxEventAttribute } from '@xchainjs/xchain-cosmos'
-import { Txs, TxFrom, TxTo, Balance, Fees } from '@xchainjs/xchain-client'
+import { TxResponse, TxEvent, TxEventAttribute } from '@bithighlander/xchain-cosmos'
+import { Txs, TxFrom, TxTo, Balance, Fees } from '@bithighlander/xchain-client'
 
 export const DECIMAL = 8
 export const DEFAULT_GAS_VALUE = '10000000'

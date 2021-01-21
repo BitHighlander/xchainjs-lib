@@ -10,9 +10,9 @@ import {
   TxsPage,
   XChainClient,
   XChainClientParams,
-} from '@xchainjs/xchain-client'
-import { Asset, baseAmount, assetToString } from '@xchainjs/xchain-util'
-import * as xchainCrypto from '@xchainjs/xchain-crypto'
+} from '@bithighlander/xchain-client'
+import { Asset, baseAmount, assetToString } from '@bithighlander/xchain-util'
+import * as xchainCrypto from '@bithighlander/xchain-crypto'
 
 import { PrivKey, codec } from 'cosmos-client'
 import { MsgSend, MsgMultiSend } from 'cosmos-client/x/bank'

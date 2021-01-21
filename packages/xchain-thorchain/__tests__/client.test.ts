@@ -1,8 +1,8 @@
 import nock from 'nock'
 
-import { TxsPage } from '@xchainjs/xchain-client'
-import { baseAmount, BaseAmount } from '@xchainjs/xchain-util'
-import { TxHistoryResponse, TxResponse } from '@xchainjs/xchain-cosmos'
+import { TxsPage } from '@bithighlander/xchain-client'
+import { baseAmount, BaseAmount } from '@bithighlander/xchain-util'
+import { TxHistoryResponse, TxResponse } from '@bithighlander/xchain-cosmos'
 import { BroadcastTxCommitResult, Coin, BaseAccount } from 'cosmos-client/api'
 import { AssetRune } from '../src/types'
 import { Client } from '../src/client'

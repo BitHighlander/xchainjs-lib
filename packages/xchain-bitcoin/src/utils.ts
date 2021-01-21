@@ -1,7 +1,7 @@
 import * as Bitcoin from 'bitcoinjs-lib' // https://github.com/bitcoinjs/bitcoinjs-lib
 import * as blockChair from './blockchair-api'
-import { Address, Balance, Fees, Network, TxHash, TxParams } from '@xchainjs/xchain-client'
-import { AssetBTC, assetToString, BaseAmount, baseAmount } from '@xchainjs/xchain-util'
+import { Address, Balance, Fees, Network, TxHash, TxParams } from '@bithighlander/xchain-client'
+import { AssetBTC, assetToString, BaseAmount, baseAmount } from '@bithighlander/xchain-util'
 import { BtcAddressUTXOs, BtcAddressUTXO } from './types/blockchair-api-types'
 import { FeeRate, FeeRates, FeesWithRates } from './types/client-types'
 import { BroadcastTxParams, DerivePath, UTXO, UTXOs } from './types/common'

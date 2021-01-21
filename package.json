@@ -6,6 +6,7 @@
     "packages/*"
   ],
   "scripts": {
+    "yarn": "yarn",
     "clean": "lerna run clean",
     "build": "lerna run build",
     "pub": "lerna publish",

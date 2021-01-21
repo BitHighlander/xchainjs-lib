@@ -1,5 +1,5 @@
 {
-  "name": "@xchainjs/xchain-ethereum",
+  "name": "@bithighlander/xchain-ethereum",
   "version": "0.7.1",
   "description": "Ethereum client for XChainJS",
   "keywords": [
@@ -34,9 +34,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@xchainjs/xchain-client": "^0.3.0",
-    "@xchainjs/xchain-crypto": "^0.2.2",
-    "@xchainjs/xchain-util": "^0.2.0",
+    "@bithighlander/xchain-client": "^0.3.0",
+    "@bithighlander/xchain-crypto": "^0.2.2",
+    "@bithighlander/xchain-util": "^0.2.0",
     "axios": "^0.21.0"
   },
   "devDependencies": {

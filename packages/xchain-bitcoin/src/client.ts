@@ -13,9 +13,9 @@ import {
   Network,
   Fees,
   XChainClientParams,
-} from '@xchainjs/xchain-client'
-import { validatePhrase, getSeed } from '@xchainjs/xchain-crypto'
-import { baseAmount, AssetBTC } from '@xchainjs/xchain-util'
+} from '@bithighlander/xchain-client'
+import { validatePhrase, getSeed } from '@bithighlander/xchain-crypto'
+import { baseAmount, AssetBTC } from '@bithighlander/xchain-util'
 import { FeesWithRates, FeeRate, FeeRates } from './types/client-types'
 import { TxIO } from './types/blockchair-api-types'
 

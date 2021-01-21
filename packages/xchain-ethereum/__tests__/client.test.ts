@@ -1,6 +1,6 @@
 import nock from 'nock'
 import { Wallet, providers } from 'ethers'
-import { baseAmount, AssetETH, BaseAmount, assetToString, assetFromString, ETHChain } from '@xchainjs/xchain-util'
+import { baseAmount, AssetETH, BaseAmount, assetToString, assetFromString, ETHChain } from '@bithighlander/xchain-util'
 import Client from '../src/client'
 import { ETH_DECIMAL } from '../src/utils'
 import { mock_all_api } from '../__mocks__'

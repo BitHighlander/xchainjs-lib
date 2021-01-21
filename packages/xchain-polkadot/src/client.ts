@@ -11,9 +11,9 @@ import {
   TxsPage,
   XChainClient,
   XChainClientParams,
-} from '@xchainjs/xchain-client'
-import { Asset, assetAmount, assetToString, assetToBase, baseAmount } from '@xchainjs/xchain-util'
-import * as xchainCrypto from '@xchainjs/xchain-crypto'
+} from '@bithighlander/xchain-client'
+import { Asset, assetAmount, assetToString, assetToBase, baseAmount } from '@bithighlander/xchain-util'
+import * as xchainCrypto from '@bithighlander/xchain-crypto'
 
 import { ApiPromise, WsProvider, Keyring } from '@polkadot/api'
 import { KeyringPair } from '@polkadot/keyring/types'

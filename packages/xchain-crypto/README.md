@@ -34,10 +34,10 @@ const meta = 'xchain-keystore'
 
 ## Installation
 
-- Install `@xchainjs/xchain-crypto` from `npm`
+- Install `@bithighlander/xchain-crypto` from `npm`
 
 ```bash
-yarn add @xchainjs/xchain-crypto
+yarn add @bithighlander/xchain-crypto
 ```
 
 ## Usage

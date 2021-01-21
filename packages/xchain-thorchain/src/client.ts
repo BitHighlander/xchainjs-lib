@@ -10,10 +10,10 @@ import {
   TxsPage,
   XChainClient,
   XChainClientParams,
-} from '@xchainjs/xchain-client'
-import { CosmosSDKClient } from '@xchainjs/xchain-cosmos'
-import { Asset, baseAmount, assetToString } from '@xchainjs/xchain-util'
-import * as xchainCrypto from '@xchainjs/xchain-crypto'
+} from '@bithighlander/xchain-client'
+import { CosmosSDKClient } from '@bithighlander/xchain-cosmos'
+import { Asset, baseAmount, assetToString } from '@bithighlander/xchain-util'
+import * as xchainCrypto from '@bithighlander/xchain-crypto'
 
 import { PrivKey, codec, Msg, AccAddress } from 'cosmos-client'
 import { StdTx } from 'cosmos-client/x/auth'

@@ -12,8 +12,8 @@ import {
   DECIMAL,
   isBroadcastSuccess,
 } from '../src/util'
-import { TxEventAttribute } from '@xchainjs/xchain-cosmos'
-import { baseAmount } from '@xchainjs/xchain-util'
+import { TxEventAttribute } from '@bithighlander/xchain-cosmos'
+import { baseAmount } from '@bithighlander/xchain-util'
 
 describe('thorchain/util', () => {
   describe('Denom <-> Asset', () => {

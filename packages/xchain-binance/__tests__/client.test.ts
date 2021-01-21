@@ -1,7 +1,7 @@
 import nock from 'nock'
 
 import { Client as BinanceClient } from '../src/client'
-import { AssetBNB, baseAmount } from '@xchainjs/xchain-util'
+import { AssetBNB, baseAmount } from '@bithighlander/xchain-util'
 import { Account, Fees, TransactionResult, TxPage } from '../src/types/binance'
 
 const mockGetAccount = (url: string, address: string, result: Account, ntimes = 1, status = 200) => {

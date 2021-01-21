@@ -1,5 +1,5 @@
 import { getDefaultFees } from '../src/util'
-import { baseAmount } from '@xchainjs/xchain-util'
+import { baseAmount } from '@bithighlander/xchain-util'
 
 describe('Utils Test', () => {
   it('get default fees', async () => {
