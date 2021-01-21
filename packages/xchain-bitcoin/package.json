@@ -1,6 +1,6 @@
 {
   "name": "@bithighlander/xchain-bitcoin",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "Custom Bitcoin client and utilities used by XChainJS clients",
   "keywords": [
     "XChain",
@@ -32,8 +32,8 @@
     "postversion": "git push --follow-tags"
   },
   "dependencies": {
-    "@bithighlander/xchain-client": "^0.3.0",
-    "@bithighlander/xchain-crypto": "^0.2.1",
+    "@bithighlander/xchain-client": "^0.3.1",
+    "@bithighlander/xchain-crypto": "^0.2.4",
     "axios": "^0.20.0",
     "bitcoinjs-lib": "^5.2.0",
     "wif": "^2.0.6"

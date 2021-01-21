@@ -1,6 +1,6 @@
 {
   "name": "@bithighlander/xchain-polkadot",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Custom Polkadot client and utilities used by XChainJS clients",
   "keywords": [
     "THORChain",
@@ -42,9 +42,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@bithighlander/xchain-client": "^0.3.0",
-    "@bithighlander/xchain-crypto": "^0.2.0",
-    "@bithighlander/xchain-util": "^0.2.0",
+    "@bithighlander/xchain-client": "^0.3.1",
+    "@bithighlander/xchain-crypto": "^0.2.4",
+    "@bithighlander/xchain-util": "^0.2.2",
     "axios": "^0.19.2",
     "nock": "^13.0.4"
   },
